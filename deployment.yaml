@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: workflow-app
-          image: udhaya53/workflow-test-app:latest
+          image: udhaya53/workflow-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
